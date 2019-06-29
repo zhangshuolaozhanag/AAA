@@ -1,0 +1,18 @@
+### 模板本身是我们独立封装好的
+- swiper.min.js
+  https://www.swiper.com.cn/
+  实现移动端滑屏处理的插件
+
+- prefixfree.min.js
+  可以处理CSS3新增加样式的前缀问题，此插件自动加前缀解决兼容问题
+
+- animate.min.css
+  https://daneden.github.io/animate.css/
+  CSS3帧动画库
+
+- 框架中对于常规的操作和音乐的处理都完成了
+
+--------------------------------
+
+
+
