@@ -110,19 +110,198 @@
         bottom: 1.6rem;
     }
 }
+
+.AAAAA{
+    animation-name: AAA;
+}
+@keyframes AAA {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .page2{
     background: url("image1/baijing.png");
+    /*background-size: cover;*/
+
+}
+.page2 > img:nth-of-type(1)/*第一张图*/{
+    width:100%;
+    height: 100%;
+    /*   设置透明度 */
+    opacity: 0.1;
+}
+.page2 > img:nth-of-type(2){
+    width: .2rem;
+    height: .32rem;
+    position: absolute;
+    top: 3.2rem;
+    left: .4rem;
+}
+.page2 .jieshao{
     background-size: cover;
+    position: absolute;
+    top:.1rem;
+    left: 50%;
+    margin-left: -.5rem;
+    width: 2rem;
+    height: .2rem
 }
-.page2 p{
-    color: #ecd81c;
+
+.page2 .jieshao img{
+    position: absolute;
+    left: -.5rem;
+    top: -.3rem;
+    transform: scale(.5);
 }
-.page2 p:nth-of-type(1){
+.page2 .jieshao span{
+    position: absolute;
+    color: yellow;
+    line-height: 1.5;
     font-size: .3rem;
-    text-align: right;
+    left:.4rem;
 }
-.page2 p:nth-of-type(2){
-    font-size: .2rem;
+.page2 .personBox1{
+    position:absolute;
+    bottom: .1rem;/*  小人版块距离最下端.1rem=10px*/
+    left: 0;
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+}
+.page2 .personBox1 img{
+    flex-grow: 1;/*放大*/
+    margin: 0 .2rem;/*小人左右距离*/
+
+}
+.page2 .personBox1 img:nth-of-type(1){
+    width: .35rem;
+    height: .86rem;
+}
+.page2 .personBox1 img:nth-of-type(2){
+    width: .68rem;
+    height: 1.14rem;
+}
+.page2 .personBox1 img:nth-of-type(3){
+    width: .37rem;
+    height: 1.11rem;
+}
+.page2 .personBox1 img:nth-of-type(4){
+    width: .41rem;
+    height: .77rem;
+}
+.page2 .zhaopian {
+    position: absolute;
+    top: 1rem;
+    /*bottom: .18rem;距离最底部.18rem*/
+    width: 50%;
+}
+.page2 .info1{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+}
+.page2 .info1 p{
+    font-size: .18rem;
+    line-height: 2;
+    text-align: center;
+}
 
 
+
+
+
+
+.page3{
+    background: url("image1/baijing.png");
+    /*background-size: cover;*/
+
+}
+.page3 > img:nth-of-type(1)/*第一张图*/{
+    width:100%;
+    height: 100%;
+    /*   设置透明度 */
+    opacity: 0.1;
+}
+.page3 > img:nth-of-type(2){
+    width: .2rem;
+    height: .32rem;
+    position: absolute;
+    top: 3.2rem;
+    left: .4rem;
+}
+.page3 .pingjia{
+    background-size: cover;
+    position: absolute;
+    top:.1rem;
+    left: 50%;
+    margin-left: -.5rem;
+    width: 2rem;
+    height: .2rem
+}
+
+.page3 .pingjia img{
+    position: absolute;
+    left: -.5rem;
+    top: -.3rem;
+    transform: scale(.5);
+}
+.page3 .pingjia span{
+    position: absolute;
+    color: yellow;
+    line-height: 1.5;
+    font-size: .3rem;
+    left:.4rem;
+}
+.page3 .personBox2{
+    position:absolute;
+    bottom: .1rem;/*  小人版块距离最下端.1rem=10px*/
+    left: 0;
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+}
+.page3 .personBox2 img{
+    flex-grow: 1;/*放大*/
+    margin: 0 .2rem;/*小人左右距离*/
+
+}
+.page3 .personBox2 img:nth-of-type(1){
+    width: .35rem;
+    height: .86rem;
+}
+.page3 .personBox2 img:nth-of-type(2){
+    width: .68rem;
+    height: 1.14rem;
+}
+.page3 .personBox2 img:nth-of-type(3){
+    width: .37rem;
+    height: 1.11rem;
+}
+.page3 .personBox2 img:nth-of-type(4){
+    width: .41rem;
+    height: .77rem;
+}
+.page3 .zhaopian1 {
+    position: absolute;
+    top: 1rem;
+    /*bottom: .18rem;距离最底部.18rem*/
+    width: 50%;
+}
+.page3 .info2{
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 100%;
+}
+.page3 .info2 p{
+    font-size: .18rem;
+    line-height: 2;
+    text-align: center;
 }
